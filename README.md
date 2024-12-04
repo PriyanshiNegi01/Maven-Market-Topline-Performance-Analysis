@@ -45,13 +45,30 @@ Maven Market is a multi-national grocery chain with locations in Canada, Mexico,
 - Created calculated columns and DAX measures to compute **Total Transactions**, **Total Profit**, **Profit Margin**, **Return Rate**, and other business KPIs.
 - Integrated slicers, map visuals, and KPI cards to enable interactive filtering and drill-down functionality.
 
-### Key Visualizations:
-1. **Matrix Visuals**: Showed total transactions, profit, margin, and return rate by **Product_Brand**.
-2. **Map Visual**: Displayed total transactions by **store city**, with slicers to filter data by country.
-3. **KPI Cards**: Displayed performance metrics such as **Current Month Transactions**, **Total Profit**, and **Total Returns** vs. **Last Month** values.
-4. **Treemap Visual**: Helped break down transactions by **store country**, with drill-up and drill-down features.
-5. **Stacked Column Chart**: Analyzed **Weekly Revenue Trending**.
-6. **Top N Filter**: Applied to show the top 30 **Product_Brands** sorted by **Total Transactions**.
+The **Data Model** is built in Power BI using various tables like **Transactions**, **Products**, and **Stores**. Here's a screenshot of the data model:
+
+![MavenMarket DataModel](https://github.com/user-attachments/assets/91f76060-d747-4519-b7bd-f1e472e78cd5)
+
+### Dashboard
+
+Here’s a screenshot of the interactive **Power BI Dashboard** that provides insights on sales, profit margins, transactions, and more:
+
+![MavenMarket Dashboard](https://github.com/user-attachments/assets/10a0119d-443b-4048-8d56-a96d5346cf20)
+
+### Visualizations and Metrics
+The report includes the following visualizations and metrics:
+
+1. **Matrix Visual**: Displays **Total Transactions**, **Total Profit**, **Profit Margin**, and **Return Rate** by **Product Brand**.
+   - Conditional formatting is applied to **Total Transactions** using **data bars**, **Profit Margin** using **color scales** (White to Green), and **Return Rate** using **color scales** (White to Red).
+   - A **Top N** filter is applied to show the top 30 product brands sorted by **Total Transactions**.
+
+2. **KPI Cards**: Shows **Total Transactions**, **Total Profit**, and **Total Returns** compared to **Last Month** with updated titles and formatting.
+
+3. **Map Visual**: Displays **Total Transactions** by **Store City** with an interactive slicer to filter data by country.
+
+4. **Treemap Visual**: Breaks down **Total Transactions** by **Store Country**, with drill-up and drill-down functionality by **Store State** and **Store City**.
+
+5. **Stacked Column Chart**: Displays **Total Revenue** by **Week**, with a report-level filter applied to show data for the year **1998**.
 
 ### Insights Derived:
 - Identified top-performing **Product Brands**.
@@ -68,6 +85,14 @@ Maven Market is a multi-national grocery chain with locations in Canada, Mexico,
 4. Review the data and analysis by exploring the included CSV files.
 
 ---
+
+
+## Conclusion
+
+This Power BI project highlights the **Topline Performance** analysis of **Maven Market's** sales data, focusing on understanding key performance indicators (KPIs) like transactions, profit margins, returns, and revenue trends. The interactive dashboard allows stakeholders to drill down and explore insights across multiple dimensions, providing valuable business insights into Maven Market’s performance.
+
+---
+
 
 ## Contact
 
