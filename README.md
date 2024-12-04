@@ -33,8 +33,8 @@ Maven Market is a multi-national grocery chain with locations in Canada, Mexico,
 - **MavenMarketAnalysis_PriyanshiNegi.pbix**: Contains the Power BI project file with built reports.
 
 - **Images**: Includes visual representations from the Power BI report.
-    - **MavenMarketLogo.png**: Logo of Maven Market used in the report.
-    - **PowerBIDashboardScreenshots.png**: Screenshots of the Power BI report visuals.
+    - **MavenMarket Logo.png**: Logo of Maven Market used in the report.
+    - **MavenMarket Dashboard.png**: Screenshots of the Power BI report visuals.
 
 ---
 
