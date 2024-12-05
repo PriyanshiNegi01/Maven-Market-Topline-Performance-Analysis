@@ -68,7 +68,9 @@ The report includes the following visualizations and metrics:
 
 4. **Treemap Visual**: Breaks down **Total Transactions** by **Store Country**, with drill-up and drill-down functionality by **Store State** and **Store City**.
 
-5. **Stacked Column Chart**: Displays **Total Revenue** by **Week**, with a report-level filter applied to show data for the year **1998**.
+5. **Stacked Column Chart**: Displays **Total Revenue** by **Week**, with a report-level filter applied to show data for the year **1998**
+
+6. **Gauge Visual**: Depicts **Total Revenue** achieved relative to the **Revenue Target**, providing a quick snapshot of progress.
 
 ### Insights Derived:
 - Identified top-performing **Product Brands**.
